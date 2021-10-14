@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(236, 241, 225);
+    background-image: url("../img/Bild.webp");
+    background-repeat: no-repeat;
+    background-position: right center;
+
+
+
+}
+
+
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+div {
+    position: relative;
+    padding-top: 30vh;
+    padding-left: 120px;
+}
+
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    /* padding-left: 120px; */
+    /* padding-top: 30vh; */
+    font-variant: small-caps;
+    font-size: 45px;;
+    width: 280px;
+    padding-bottom: 20px;;
+}
+
+
+p {
+    width: 450px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+
+button {
+    background-color: rgb(255, 169,0);
+    position: absolute;
+    top: 500px;
+    display: block;
+    padding: 20px;
+    width: 280px;
+    border-radius: 35px;
+    font-size: 18px;
+    border: none;
+}
